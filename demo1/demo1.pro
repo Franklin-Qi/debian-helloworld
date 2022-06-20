@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = demo1.run
+TARGET = demo1
 
 QT -= core gui
 
@@ -13,6 +13,6 @@ SOURCES += \
 DESTDIR += $$PWD/
 
 demo1.path = /usr/bin/
-demo1.files = $$PWD/demo1.run
+demo1.files = $$PWD/demo1
 
 INSTALLS += demo1

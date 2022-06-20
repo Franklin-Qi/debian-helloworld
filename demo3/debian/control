@@ -1,10 +1,14 @@
 Source: demo3
-Section: debug
+Section: utils
 Priority: optional
-Maintainer: demo3 <dingjing@live.cn>
-Build-Depends: debhelper (>=11~)
+Maintainer: yushuoqi <yushuoqi@kylinos.cn>
+Build-Depends: debhelper,
+            gcc,
+            cmake,
+            make,
+            qt5-qmake
 Standards-Version: 4.1.4
-Homepage: https://xxx.xx
+Homepage: https://github.com/Franklin-Qi/debian-helloworld
 
 Package: demo3-lib
 Architecture: any

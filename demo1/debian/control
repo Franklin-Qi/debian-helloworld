@@ -1,10 +1,14 @@
 Source: demo1
-Section: debug
+Section: utils
 Priority: optional
-Maintainer: demo1 <dingjing@live.cn>
-Build-Depends: debhelper (>=11~), qt5-qmake
+Maintainer: yushuoqi <yushuoqi@kylinos.cn>
+Build-Depends: debhelper,
+            gcc,
+            cmake,
+            make,
+            qt5-qmake
 Standards-Version: 4.1.4
-Homepage: https://github.com/ukui/
+Homepage: https://github.com/Franklin-Qi/debian-helloworld
 
 Package: demo1
 Architecture: any

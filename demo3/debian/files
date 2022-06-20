@@ -1,5 +1,5 @@
-demo3-dbgsym_0.0.0_amd64.ddeb debug optional automatic=yes
-demo3-lib-dbgsym_0.0.0_amd64.ddeb debug optional automatic=yes
-demo3-lib_0.0.0_amd64.deb debug optional
-demo3_0.0.0_amd64.buildinfo debug optional
-demo3_0.0.0_amd64.deb debug optional
+demo3-dbgsym_1.0.0_amd64.ddeb debug optional automatic=yes
+demo3-lib-dbgsym_1.0.0_amd64.ddeb debug optional automatic=yes
+demo3-lib_1.0.0_amd64.deb utils optional
+demo3_1.0.0_amd64.buildinfo utils optional
+demo3_1.0.0_amd64.deb utils optional

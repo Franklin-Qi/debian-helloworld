@@ -1,13 +1,13 @@
 Package: demo3-dbgsym
 Package-Type: ddeb
 Source: demo3
-Version: 0.0.0
+Version: 1.0.0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: demo3 <dingjing@live.cn>
+Maintainer: yushuoqi <yushuoqi@kylinos.cn>
 Installed-Size: 18
-Depends: demo3 (= 0.0.0)
+Depends: demo3 (= 1.0.0)
 Section: debug
 Priority: optional
 Description: debug symbols for demo3
-Build-Ids: 0f50bf7dd43291f8276e44f8d17905cea41a5603
+Build-Ids: 5f3566d947aa0e2fc07ab077c233711812d3a166

@@ -1,10 +1,5 @@
-demo1 (0.0.0ubuntu1) experimental; urgency=low
+demo1 (1.0.0) v101; urgency=low
 
-  [ demo1 ]
   * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
 
-  [ dingjing ]
-  * 
-
- -- dingjing <dingjing@dingjing-pc>  Wed, 01 Apr 2020 21:29:34 +0800
+ -- yushuoqi <yushuoqi@kylinos.cn>  Mon, 20 Jun 2022 17:53:45 +0800

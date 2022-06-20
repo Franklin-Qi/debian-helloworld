@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = demo2.run
+TARGET = demo2
 QT -= gui core
 
 CONFIG += console
@@ -12,7 +12,7 @@ SOURCES += \
 DESTDIR += $$PWD/
 
 demo2.path = /usr/bin/
-demo2.files = $$PWD/demo2.run
+demo2.files = $$PWD/demo2
 
 demo2_doc.path = /usr/share/demo2/
 demo2_doc.files = $$PWD/demo2-doc.txt

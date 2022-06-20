@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <demo3/demo3-lib.h>
+#include "../library/demo3-lib.h"
 
 int main()
 {

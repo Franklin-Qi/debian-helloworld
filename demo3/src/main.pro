@@ -1,21 +1,23 @@
 TEMPLATE = app
-TARGET = demo3.run
+TARGET = demo3
 
 QT -= gui core
 
 CONFIG +=
 
-INCLUDEPATH += \
+# INCLUDEPATH += \
 
-LIBS += \
-    -ldemo3-lib
+# LIBS += \
+#     -ldemo3-lib
 
 SOURCES += \
-    $$PWD/main.c
+    $$PWD/main.c \
+    ../library/demo3-lib.cpp \
+    ../library/demo3-lib.h
 
 DESTDIR = $$PWD/
 
 demo3.path = /usr/bin/
-demo3.files = $$PWD/demo3.run
+demo3.files = $$PWD/demo3
 
 INSTALLS += demo3
