@@ -1,3 +1,35 @@
+Table of Contents
+=================
+
+* [debian-helloworld 创建deb包](#debian-helloworld-创建deb包)
+   * [一、debian目录主要文件介绍](#一debian目录主要文件介绍)
+   * [二、debian 创建deb包通用步骤](#二debian-创建deb包通用步骤)
+      * [2.1 安装依赖](#21-安装依赖)
+      * [2.2 生成debian目录](#22-生成debian目录)
+      * [2.3 修改control文件](#23-修改control文件)
+      * [2.4 修改rules文件](#24-修改rules文件)
+      * [2.5 修改changelog文件](#25-修改changelog文件)
+      * [2.6 生成deb包](#26-生成deb包)
+   * [三、实例之demo1生成一个二进制包](#三实例之demo1生成一个二进制包)
+      * [3.1 生成 debian 目录](#31-生成-debian-目录)
+      * [3.2 修改 debian/control 文件](#32-修改-debiancontrol-文件)
+      * [3.3 修改 debian/rules](#33-修改-debianrules)
+      * [3.4 修改 debian/changelog](#34-修改-debianchangelog)
+      * [3.5 生成 deb 包](#35-生成-deb-包)
+   * [四、demo2生成两个二进制包](#四demo2生成两个二进制包)
+      * [4.1 生成 debian 目录](#41-生成-debian-目录)
+      * [4.2 修改 debian/control 文件](#42-修改-debiancontrol-文件)
+      * [4.3 添加 xxx.install文件](#43-添加-xxxinstall文件)
+      * [4.4 修改 debian/rules](#44-修改-debianrules)
+      * [4.5 修改 debian/changelog](#45-修改-debianchangelog)
+      * [4.6 生成 deb 包](#46-生成-deb-包)
+   * [五、实例之demo3打包动态库](#五实例之demo3打包动态库)
+   * [六、debian软件包制作补充内容](#六debian软件包制作补充内容)
+      * [6.1 debian社区中常见的角色定义](#61-debian社区中常见的角色定义)
+      * [6.2 需要的开发工具](#62-需要的开发工具)
+      * [6.3 软件包名称和版本](#63-软件包名称和版本)
+   * [七、参考文档](#七参考文档)
+
 # debian-helloworld 创建deb包
 
 刚接触`debian`打包的时候，面对众多的`debian`打包命令有些束手无策，因此，整理个快速打包流程,详细参考[Debian官方维护者手册](https://www.debian.org/doc/manuals/maint-guide/)。
